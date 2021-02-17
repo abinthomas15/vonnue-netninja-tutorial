@@ -1,0 +1,17 @@
+h1 {
+    color: orange;
+    background-color: slategray;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: Arial;
+}
+p {
+    color: slateblue;
+}
+div{
+    display: inline;
+}
+
+.error{
+    color:red;
+}
