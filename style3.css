@@ -102,10 +102,13 @@ article p{
     background: rgb(214, 214, 214);
     padding: 60px 20px;
     color: indianred;
-}
+    margin-left: auto;
+    margin-right: auto;
+}   
 .joi h2{
     font-size: 36px;
     max-width: 100%;
+    width: 100%;
 }
 form input{
     margin: 20px 0;
@@ -119,4 +122,35 @@ footer{
     background-color: red;
     color: white;
     padding: 10px;
+}
+/* pseudo classes */
+nav li a:hover{
+    text-decoration: underline;
+}
+.images li:hover{
+    position: relative;
+    bottom: 6px;
+}
+form input:focus{
+    border: 4px solid coral;
+    
+}
+form input:valid{
+    border: solid 2px green;
+}
+/* pseudo elements */
+article p::first-line{
+    font-size: 25px;
+}
+.joi p::first-letter{
+    font-size: 1.5em;
+}
+.joi p::selection{
+    background-color:lightblue ;
+}
+p::spelling-error{
+    text-decoration: underline;
+}
+p::selection{
+    background-color: lightblue;
 }
