@@ -1,3 +1,8 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     background-color: rgb(238, 223, 20);
     padding: 20px;
@@ -43,8 +48,9 @@ nav{
     background-color: whitesmoke;
     padding: 20px;
     position:sticky;
-    top: 120px;
-    
+    top: 90px;
+    left: 0%;
+     
 }
 nav ul{
     white-space: nowrap;
@@ -63,5 +69,54 @@ nav li a{
 nav li a.join{
     color: red;
 }
-
-/* this is a sample */
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: brown;
+    font-size: 48px;
+}
+article p{
+    line-height: 2em;
+    color: cadetblue;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+.joi{
+    text-align: center;
+    background: rgb(214, 214, 214);
+    padding: 60px 20px;
+    color: indianred;
+}
+.joi h2{
+    font-size: 36px;
+    max-width: 100%;
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: solid white;
+}
+footer{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
