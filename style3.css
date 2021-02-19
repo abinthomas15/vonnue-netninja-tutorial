@@ -42,7 +42,7 @@ header h1{
     left: 0%;
 }
 .banner h2 span{
-    font-size: 3cm;
+    font-size: 72px;
 }
 nav{
     background-color: whitesmoke;
@@ -153,4 +153,54 @@ p::spelling-error{
 }
 p::selection{
     background-color: lightblue;
+}
+
+/* media-queries */
+
+@media screen and (max-width: 1000px){
+.banner .welcome h2{
+    font-size: 40px;
+}
+nav li{
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 700px){
+    .banner .welcome h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .banner .welcome {
+       position: relative;
+       text-align: center;
+       padding: 10px;
+    }
+    .banner .welcome br{
+        display: none;
+    }
+    .banner .welcome span{
+        font-size: ;
+    }
+    .images li{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 500px){
+    nav li{
+        font-size: 30px;
+        display: block;
+        width: 100%;
+        margin: 20px;
+    }
+    header{
+        position: relative;
+    }
+    nav{
+        top: 0;
+    }
 }
