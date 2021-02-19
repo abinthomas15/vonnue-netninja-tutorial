@@ -17,8 +17,8 @@ body{
     background: white;
     flex-wrap: wrap;
     flex-flow: column;
-    justify-content: flex-end;
-    height: 800px;
+    height: 600px;
+    justify-content: center;
 }
 .box{
     height: 100px;
