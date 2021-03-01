@@ -1,13 +1,15 @@
 .html, .body{
     height: 100%;
-    width: 100%;
+    max-width: 100%;
 }
 .topBar{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     position: relative;
-    left: 60px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-basis: inherit;
 }
 .etsy{
     width: 80px;
@@ -23,6 +25,7 @@
     justify-content: center;
     padding-top: 10px;
     padding-left: 10px; 
+    position: relative;
 }
 .searchBox{
     width: 1100px;
@@ -36,17 +39,16 @@
 }
 .search{
     width: 25px;
-    height: 25px;  
-}
-.search img{
-    padding-top: 25px;
-    padding-right: 90px;
-    position: relative;
-    right: 38px;
+    height: 25px; 
+    position: absolute;
+    right: 2%;
+    
 }
 .signIn{
     padding-top: 25px;
     font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .basket{
     width: 25px;
@@ -60,6 +62,9 @@
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 10px;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-shrink: initial;
 }
 .selection a{
     text-decoration: none;
@@ -70,7 +75,9 @@
 .topMiddle{
     width: 100%;
     height: 350px;
+    flex-basis: auto;
     background-color: rgb(230, 235, 240);
+    flex-wrap: wrap;
 }
 
 .middle{
@@ -91,9 +98,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-basis: auto;
     background-color: rgb(230, 235, 240);   
     height: 250px;
     margin-top: 52px;
+    flex-wrap: wrap;
+}
+.icons{
+    flex-wrap: wrap;
 }
 .icons img{
     display: flex;
@@ -103,6 +115,7 @@
     width: 175px;
     margin-left: 30px;
     border-radius: 50%; 
+    flex-wrap: wrap;
 }
 .images{
     padding-left: 70px;
@@ -125,6 +138,7 @@
     justify-content: flex-start;
     flex-direction: row;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 .suggested-icons-text img{
     margin-right: 45px;
@@ -199,6 +213,7 @@
 .home{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -211,14 +226,15 @@ hr{
    margin-left: 170px;
    margin-right: 180px;
 }
-.unorder-image{
+/* .unorder-image{
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 .image-one img{
     width: 350px;
-    margin-left: 150px;
+    margin-left: 80px;
 }
 .image-one p{
     display: flex;
@@ -248,7 +264,34 @@ hr{
 }
 .col-imageTwo img{
     width: 200px; 
+} */
+.main-column{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* background-color:black; */
 }
+.sub-column{
+    width: 50%;
+    height: 500px;
+    /* background-color: red;
+    border: 2px solid #0000ff; */
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+}
+.image{
+    width: 50%  ;
+    height: 350px;
+}
+.small-column{
+    padding-left: 35px;
+}
+.small-column img{
+    width: 100%;
+    height: 200px;
+}   
 .shop{
     margin-left: 20px;
 }
@@ -269,6 +312,8 @@ hr{
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+    flex-wrap: wrap;
+    flex-basis: inherit;
 }
 .gifts{
     border: 2px solid #ccc;
@@ -298,9 +343,11 @@ hr{
 .blue-pic{
     position: absolute;
     top: 220px;
+    
 }
 .about-etsy{
     text-align: center;
+    flex-wrap: wrap;
 }
 .about-etsy h2{
     padding-top: 20px;
@@ -320,6 +367,7 @@ hr{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .community-one{
     margin-left: 100px;
@@ -351,6 +399,7 @@ hr{
     font-size: 16px;
     line-height: 28px;
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 .community-three h3{
     display: flex;
@@ -360,6 +409,7 @@ hr{
     font-size: 30px;
     margin-bottom: 0;
     margin-right: 180px;
+    flex-wrap: wrap;
 }
 .community-three p{
     display: flex;
@@ -447,6 +497,7 @@ hr{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .shop{
     margin-left: 70px;
@@ -527,5 +578,241 @@ hr{
     max-width: 100%;
     width: 20%;
     padding-top: 20px;
+}
+@media screen and (max-width:1024px){
+    
+    .etsy img{
+        width: 82px;
+        height: 40px;
+    }
+    .searchBox{
+        width: 650px;
+        height: 43px;
+        border: 2px solid lightgrey;
+        border-radius: 50px;
+        outline: none;
+        background-color: rgb(230, 235, 240);
+        font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+        font-size: 15px;
+    }
+    .icons img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center ;
+        height: 175px;
+        width: 132px;
+        margin-left: 30px;
+        border-radius: 50%; 
+        flex-wrap: wrap;
+    }
+    .basket img{
+        width: 25px;
+        height: 25px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .recently-images{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: auto;
+        flex-wrap: wrap;
+    }
+    .alice-picsouter{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: auto;
+        flex-wrap:wrap ;
+    }
+    .unorder-image{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: auto;
+        flex-wrap: wrap;
+    }
+    .image-three img{
+        position: relative;
+        right: -23%;
+        top: -21%;
+    }
+    .image-three p{
+        position: relative;
+        right: -43%;
+        top: -22%;
+    }
+    .column-imageOne img{
+        position: relative;
+        left: -65%;
+    }
+    .column-imageTwo img{
+        position: relative;
+        left: -60%;
+    }
+    .col-imageOne img{
+        position: relative;
+        left: -75%;
+    }
+    .col-imageOne p{
+        position: relative;
+        left: -65%;
+    }
+    .col-imageTwo img{
+        position: relative;
+        left: -77%;
+    }
+    .col-imageTwo p{
+        position: relative;
+        left: -60%;
+    }
+}
+@media screen and (max-width:480px){
+    .searchBox{
+        width: 167px;
+    }
+    .signIn{
+        position: relative;
+        left: 10%;
+        top: 10%;
+    }
+    .basket img{
+        position: relative;
+        left: 40%;
+        top: -15%;
+    }
+    .selection{
+        line-height: 40px;
+    }
+    .items{
+        padding-top: 22px;
+    }
+    .suggested{
+        position: relative;
+        top: 102%;
+    }
+    .suggested-icons{
+        margin-top: 362px;
+    }
+    .middle{
+        background-color: white;
+    }
+    .topMiddle{
+        background-color: white;
+    }
+    .items{
+        background-color: white;
+    }
+    .home{
+        margin-left: 0;
+    }
+    .unorder-image{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .unorder-image img{
+        margin-left: 0;
+    }
+    .column-imageOne img{
+        margin-right: 0;
+        position: relative;
+        left: 15%;
+    }
+    .column-imageOne p{
+        position: relative;
+        left: 12%;
+    }
+    .column-imageTwo img{
+        position: relative;
+        left: 10%;
+    }
+    .column-imageTwo p{
+        position: relative;
+        left: 15%;
+    }
+    .image-three img{
+        position: relative;
+        top: 10%;
+        left: 1%;
+    }
+    .image-three p{
+        position: relative;
+        top: 12%;
+        left: 7%;
+    }
+    .col-imageOne{
+        width: 100px;
+    }
+    .main-column{
+        flex-direction: column;
+        height: initial;
+    }
+    .sub-column{
+        width: 100%;
+        padding: 0px;
+        flex-direction: column;
+        height: initial;
+    }
+    .sub-column img{
+        width: 100%;
+    }
+    .small-column {
+        padding-top: 20px;
+        padding-bottom: 10pxs;
+        padding-left: 0;
+    }
+    .shop{
+        margin: 0;
+    }
+    .shop-text{
+        margin: 0;
+    }
+    .shop-selection{
+        margin: 0;
+    }
+    .blue-pic{
+        display: none;
+    }
+    .orange-pic{
+        display: none;
+    }
+    .community-one{
+        margin: 0;
+    }
+    .brown{
+        height: initial;
+    }
+    .blue-svg img{
+        margin: 0;   
+    }
+    .offers p{
+        margin: 0;
+        padding: 0;
+    }
+    .offers input{
+        width: 250px;
+    }
+    .sub{
+        ;
+    }
+    .darkblue-svg{
+        display: none;
+    }
+    .purchases{
+        margin: 0;
+    }
+    .apps{
+        margin: 0;
+    }
+    .recently-images{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
+    .alice-picsouter{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
 }
 

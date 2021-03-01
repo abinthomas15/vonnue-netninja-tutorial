@@ -12,9 +12,11 @@
 }
 .EN{
     padding-right: 30px;
+    flex-wrap: wrap;
 }
 .imageLogo img{
     padding-right: 10px;
+    flex-wrap: wrap;
 }
 
 .middle{
