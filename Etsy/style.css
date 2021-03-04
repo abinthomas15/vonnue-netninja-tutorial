@@ -1,0 +1,815 @@
+.html, .body{
+    height: 100%;
+    max-width: 100%;
+}
+.topBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-basis: inherit;
+}
+.etsy{
+    width: 80px;
+    height: 70px;
+    padding-left: 30px;
+}
+.etsy img{
+    padding-top: 20px;
+}
+.searchOuter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px; 
+    position: relative;
+}
+.searchBox{
+    width: 1100px;
+    height: 43px;
+    border: 2px solid lightgrey;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(230, 235, 240);
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 15px;
+}
+.search{
+    width: 25px;
+    height: 25px; 
+    position: absolute;
+    right: 2%;
+    
+}
+.signIn{
+    padding-top: 25px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.basket{
+    width: 25px;
+    height: 25px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.selection{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-shrink: initial;
+}
+.selection a{
+    text-decoration: none;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.topMiddle{
+    width: 100%;
+    height: 350px;
+    flex-basis: auto;
+    background-color: rgb(230, 235, 240);
+    flex-wrap: wrap;
+}
+
+.middle{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(230, 235, 240);
+}
+.tag{
+    text-align: center;
+}
+.h2tag{
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: auto;
+    background-color: rgb(230, 235, 240);   
+    height: 250px;
+    margin-top: 52px;
+    flex-wrap: wrap;
+}
+.icons{
+    flex-wrap: wrap;
+}
+.icons img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    height: 175px;
+    width: 175px;
+    margin-left: 30px;
+    border-radius: 50%; 
+    flex-wrap: wrap;
+}
+.images{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.suggested{
+    padding-left: 20px;
+}
+.sugSearches{
+    display: flex;
+    justify-content:flex-start;
+}
+.sugSearches p{
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.suggested-icons{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.suggested-icons-text img{
+    margin-right: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.recently{
+    margin-left: 20px;
+}
+.recently h2{
+    font-size: 16px ;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+}
+.recently-images{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.images-inner img{
+    width: 175px; 
+    cursor: pointer;
+}
+.text{
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.allice-texts{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.allice-texts a{
+    text-decoration: none;
+    color: black;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.allice-texts a:hover{
+    text-decoration: underline;
+}
+.allice-texts p{
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    position: relative;
+    font-size: 14px;
+    left:25px;
+    bottom: 13px;
+    cursor: pointer;
+}
+.allice-texts p:hover{
+    text-decoration: underline;
+}
+.alice-picsouter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.alice-pics img{
+    width: 175px;
+}
+.discover{
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.home p{
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 17px;
+}   
+hr{
+   border-bottom: 2px solid #ccc;
+   margin-left: 170px;
+   margin-right: 180px;
+}
+/* .unorder-image{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.image-one img{
+    width: 350px;
+    margin-left: 80px;
+}
+.image-one p{
+    display: flex;
+    justify-content: center;
+}
+.image-two{
+    margin-right: 160px;
+    padding-right: 20px;
+}
+.column-imageOne img{
+    width: 200px;
+}
+.column-imageTwo img{
+    width: 200px;
+}
+.image-three img{
+    width: 350px;
+    position: relative;
+    right: 160px;
+}
+.image-four{
+    position: relative;
+    right: 150px;
+}
+.col-imageOne img{
+    width: 200px;
+}
+.col-imageTwo img{
+    width: 200px; 
+} */
+.main-column{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* background-color:black; */
+}
+.sub-column{
+    width: 50%;
+    height: 500px;
+    /* background-color: red;
+    border: 2px solid #0000ff; */
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+}
+.image{
+    width: 50%  ;
+    height: 350px;
+}
+.small-column{
+    padding-left: 35px;
+}
+.small-column img{
+    width: 100%;
+    height: 200px;
+}   
+.shop{
+    margin-left: 20px;
+}
+.shop-text{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 36px;
+}
+.shop-text h2{
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 16px;
+}
+.shop-text p{
+    margin-left: 17px;
+}
+.shop-selection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    flex-basis: inherit;
+}
+.gifts{
+    border: 2px solid #ccc;
+    border-radius: 10%;
+}
+.gifts img{
+    width: 160px;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+.gifts p{
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 16px;
+}
+.brown{
+    max-width: 100%;
+    height: 500px;
+    background-color: rgb(255, 235, 212);
+    margin-top: 60px;
+    position: relative;
+}
+.orange-pic{
+    position: absolute;
+    right: 30px;
+    top: -10px;
+}
+.blue-pic{
+    position: absolute;
+    top: 220px;
+    
+}
+.about-etsy{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.about-etsy h2{
+    padding-top: 20px;
+    font-family: "Guardian-EgypTT",serif;
+    font-size: 44px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.about-etsy a{
+    color: black;
+}
+.about-etsy p{
+    margin-bottom: 20px ;
+    padding-bottom: 20px;
+}
+.community-message{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.community-one{
+    margin-left: 100px;
+}
+ .community-one h3{
+    color: #222;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 30px;
+    margin-bottom: 0; 
+}
+.community-one p{
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+.community-two h3{
+    color: #222;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.community-two p{
+    display: flex;
+    justify-content: center;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.community-three h3{
+    display: flex;
+    justify-content: center;
+    color: #222;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-right: 180px;
+    flex-wrap: wrap;
+}
+.community-three p{
+    display: flex;
+    justify-content: center;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-right: 150px;
+
+}
+.questions{
+    text-align: center;
+}
+.questions h4{
+    margin-bottom: 0;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 20px;
+}
+.goto{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.questions p{
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.blue-svg img{
+    margin-top: 60px;
+}
+.blue{
+    width: 100%;
+    height: 170px;
+    background-color: #D7E6F5;
+    margin-bottom: 0px;
+}
+.offers{
+    margin-top: -5px;
+    text-align: center;
+    position: relative;
+}
+.offers p{
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-size: 18px;
+}
+.offers input{
+    margin-top: 10px;
+    width: 500px;
+    height: 35px;
+    outline: none;
+    border: 1px solid lightblue;
+    border-radius: 100px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.sub{
+    position: absolute;
+    right: 34%;
+    bottom: 8%;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+}
+.darkblue-whole{
+    width: 100%;
+    background-color: #2F466C;
+}
+.darkblue-svg img{
+    padding-top: 10px;
+}  
+.darkblue-whole{
+    position: relative;
+    bottom: 6%;
+}
+.purchases{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.shop{
+    margin-left: 70px;
+}
+.shop h3{
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.shop p{
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sell h3{
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sell p{
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+}
+.about h3{
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.about p{
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+}
+.help h3{
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.help p{
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+}
+.apps{
+    margin-right: 300px;
+}
+.download-etsy{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+}
+.download-etsy h3{
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-color: #ccc;
+}
+.download-etsy p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+    color: #ccc;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+}
+.social-media{
+    display: flex;
+    max-width: 100%;
+    width: 20%;
+    padding-top: 20px;
+}
+@media screen and (max-width:1024px){
+    
+    .etsy img{
+        width: 82px;
+        height: 40px;
+    }
+    .searchBox{
+        width: 650px;
+        height: 43px;
+        border: 2px solid lightgrey;
+        border-radius: 50px;
+        outline: none;
+        background-color: rgb(230, 235, 240);
+        font-family: -apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+        font-size: 15px;
+    }
+    .icons img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center ;
+        height: 175px;
+        width: 132px;
+        margin-left: 30px;
+        border-radius: 50%; 
+        flex-wrap: wrap;
+    }
+    .basket img{
+        width: 25px;
+        height: 25px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .recently-images{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: auto;
+        flex-wrap: wrap;
+    }
+    .alice-picsouter{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: auto;
+        flex-wrap:wrap ;
+    }
+    .unorder-image{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: auto;
+        flex-wrap: wrap;
+    }
+    .image-three img{
+        position: relative;
+        right: -23%;
+        top: -21%;
+    }
+    .image-three p{
+        position: relative;
+        right: -43%;
+        top: -22%;
+    }
+    .column-imageOne img{
+        position: relative;
+        left: -65%;
+    }
+    .column-imageTwo img{
+        position: relative;
+        left: -60%;
+    }
+    .col-imageOne img{
+        position: relative;
+        left: -75%;
+    }
+    .col-imageOne p{
+        position: relative;
+        left: -65%;
+    }
+    .col-imageTwo img{
+        position: relative;
+        left: -77%;
+    }
+    .col-imageTwo p{
+        position: relative;
+        left: -60%;
+    }
+}
+@media screen and (max-width:480px){
+    .searchBox{
+        width: 167px;
+    }
+    .signIn{
+        position: relative;
+        left: 10%;
+        top: 10%;
+    }
+    .basket img{
+        position: relative;
+        left: 40%;
+        top: -15%;
+    }
+    .selection{
+        line-height: 40px;
+    }
+    .items{
+        padding-top: 22px;
+    }
+    .suggested{
+        position: relative;
+        top: 102%;
+    }
+    .suggested-icons{
+        margin-top: 362px;
+    }
+    .middle{
+        background-color: white;
+    }
+    .topMiddle{
+        background-color: white;
+    }
+    .items{
+        background-color: white;
+    }
+    .home{
+        margin-left: 0;
+    }
+    .unorder-image{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .unorder-image img{
+        margin-left: 0;
+    }
+    .column-imageOne img{
+        margin-right: 0;
+        position: relative;
+        left: 15%;
+    }
+    .column-imageOne p{
+        position: relative;
+        left: 12%;
+    }
+    .column-imageTwo img{
+        position: relative;
+        left: 10%;
+    }
+    .column-imageTwo p{
+        position: relative;
+        left: 15%;
+    }
+    .image-three img{
+        position: relative;
+        top: 10%;
+        left: 1%;
+    }
+    .image-three p{
+        position: relative;
+        top: 12%;
+        left: 7%;
+    }
+    .col-imageOne{
+        width: 100px;
+    }
+    .main-column{
+        flex-direction: column;
+        height: initial;
+    }
+    .sub-column{
+        width: 100%;
+        padding: 0px;
+        flex-direction: column;
+        height: initial;
+    }
+    .sub-column img{
+        width: 100%;
+    }
+    .small-column {
+        padding-top: 20px;
+        padding-bottom: 10pxs;
+        padding-left: 0;
+    }
+    .shop{
+        margin: 0;
+    }
+    .shop-text{
+        margin: 0;
+    }
+    .shop-selection{
+        margin: 0;
+    }
+    .blue-pic{
+        display: none;
+    }
+    .orange-pic{
+        display: none;
+    }
+    .community-one{
+        margin: 0;
+    }
+    .brown{
+        height: initial;
+    }
+    .blue-svg img{
+        margin: 0;   
+    }
+    .offers p{
+        margin: 0;
+        padding: 0;
+    }
+    .offers input{
+        width: 250px;
+    }
+    .darkblue-svg{
+        display: none;
+    }
+    .purchases{
+        margin: 0;
+    }
+    .apps{
+        margin: 0;
+    }
+    .recently-images{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
+    .alice-picsouter{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
+}
+

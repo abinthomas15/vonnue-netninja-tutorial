@@ -1,0 +1,30 @@
+/* .error{
+    color: orange;
+}
+p.error{
+    color: orchid;
+}
+p.success.feedback{
+    color: peachpuff;
+    border: 2px dashed black;
+} */
+/* 
+div .error{
+    color: cadetblue;
+} */
+
+/* a[href]{
+    background-color: blueviolet;
+     color: cyan; 
+/* } */
+
+div{
+    color: blue;
+    border: red 2px solid;
+    margin: 40px;
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color: grey;
+}

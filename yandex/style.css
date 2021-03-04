@@ -1,0 +1,96 @@
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-flow: row;
+    padding: 10px 25px;
+    height: 20px;
+    font-size: 85%;
+    font: .8em Arial,Helvetica,sans-serif;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+.EN{
+    padding-right: 30px;
+    flex-wrap: wrap;
+}
+.imageLogo img{
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font: .8em Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+.centerIcons{
+    padding-right: 50px;
+}
+.images{
+    padding-right: px;
+}
+.yandex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.searchbox{
+    width: 700px;
+    height: 30px;   
+    border: solid  rgb(255, 203, 58);
+    outline: none;
+
+}
+.yandexLogo {
+    position: relative;
+    right: 25px;
+    bottom: 8px;
+}
+.keyboard{
+    position: relative;
+    right: 33px;
+    top: 10px;
+}
+ .search{
+    width: 70px;
+    height: 37px;
+    padding-left: 20px;
+    background-color:  rgb(255, 203, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+} 
+.src img{
+    width:70px;
+    height: 37px;
+}
+.russia, .ukraine, .belarus, .kazakhstan, .uzbekistan, .turkey{ 
+    word-spacing: 10px;
+    padding-left: 20px;
+}
+.countries{
+    display: flex;
+    justify-content: center;
+    margin-top: 225px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+nav li{
+    padding-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: lightgray;
+    cursor: pointer;
+}
