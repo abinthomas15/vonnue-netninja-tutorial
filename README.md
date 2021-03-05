@@ -199,3 +199,13 @@ that body.
 ``` justify-content: space-around;``` Each side of each element gets spaced.
 ``` justify-content: flex-end;``` This property is used to align the all children into the end, probably the right side of the main body.
 ``` justify-content: flex-start;``` This is the default behaviour of flex box. Items get arranged to the left side of the main body.
+
+### Align and Center
+``` flex-flow: row;``` 
+
+``` flex-flow:column;```
+
+When we use flex box, there are two axis.Main axis(x) and cross axis(y)
+When we change the value of the flex flow, we are chagning the direction of the axis.
+flex-flow:row main axis is the horizontal axis. The children line-up on the main axis. The down vertical axis will be
+the cross axis.flex-flow: column main axis is the vertical axis. The children line-up on the main axis. The horizontal axis will be the cross.
