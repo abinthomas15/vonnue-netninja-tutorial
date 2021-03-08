@@ -52,7 +52,7 @@
   margin-right: 50px;
   margin-top: 10px;
 }
-.green-container{
+section{
   max-width: 100%;
   height: 100%;
   background: rgb(0, 177, 79);
@@ -67,12 +67,13 @@
 }
 .despite{
   padding-top: 150px;
-  font-size: 36px;
+  font-size: 50px;
   color: white;
+  width: 73%;
 }
 .food-delivery{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 90%;
   padding-top: 150px;
 }
@@ -80,6 +81,13 @@
   font-size: 40px;
   color: white;
   font-family: Comic Sans MS, Comic Sans, cursive;
+  width: 3%;
+}
+.food-delivery-tag{
+  padding-right: 0;
+  margin-right: 0;
+  width: 24%;
+  padding-right: 200px;
 }
 .food-delivery-tag p{
   color: white;
@@ -95,6 +103,9 @@
 .order-web a{
   text-decoration: underline lightcyan;
   color: white;
+}
+.ride-with-us{
+  padding-right: 20px;
 }
 .ride-with-us img{
   width: 45px;
@@ -169,4 +180,155 @@
 .delivery-text{
   width: 360px;
   padding-left: 50px;
+}
+.delivery-text p{
+  color: white;
+  line-height: 25px;
+}
+.delivery-text img{
+  height: 20px;
+  width: 30px; 
+}
+.delivery-text a{
+  color: white;
+}
+.arrow{
+  padding-top: 10px;
+}
+.image-three{
+  padding-top: 30px;
+}
+.image-three img{
+  width: 520px;
+  height: 510px;
+}
+.section-2{
+  background-color:rgb(249, 249, 249);
+}
+.heading-2{
+  width: 86%;
+  font-size: 35px;
+  color: black;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px,auto);
+  grid-gap: 20px;
+  max-width: 960px;
+  padding-top: 50px;
+}
+.grid > *{
+  background: white;
+}
+.grid img{
+  max-width: 100%;
+}
+.icons p{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.icons h4{
+  text-align: center;
+  font-size: 20px;
+}
+.get-app{
+  padding-top: 50px;
+  font-size: 25px;
+  color:rgb(56, 62, 67);
+}
+.download-app{
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.ios{
+  padding-right: 40px;
+}
+.section3{
+  padding-top: 150px;
+  background: rgb(0, 177, 79);
+  padding-bottom: 150px;
+}
+.newsroom h2{
+  font-size: 50px;
+  color: #d6ef52;
+}
+.stay{
+  padding-top: 30px;
+}
+.stay a{
+  font-size: 20px;
+  color: white;
+} 
+.stay i{
+  color: white;
+}
+.footer1{
+  background-color: #eaeff2;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 150px;
+
+}
+.grab img{
+  width: 70 px;
+  height: 30px;
+}
+.grab-foot{
+  width: 19%;
+}
+.forward{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.address{
+  padding-top: 20px;
+  font-size: 17px;
+  width: 77%;
+}
+.follow{
+  padding-top: 20px;
+  font-size: 14px;
+}
+.country{
+  display: flex;
+  border: 2px solid rgb(226, 217, 217);
+  width: 75%;
+}
+.singapore{
+  display: flex;
+}
+.singapore h4{
+  padding-right: 30px;
+  padding-left: 10px;
+}
+.about p{
+  padding-top: 5px;
+  font-size: 15px;
+}
+.footer2{
+  background-color: #363a45;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.terms{
+  display: flex;
+}
+.terms p{
+  padding-right: 10px;
+  color: white;
+}
+.grab-2021{
+  color: rgb(194, 191, 191);
+}
+.img img{
+  padding-top: 10px;
+  width: 150px;
+  height: 50px;
+  padding-bottom: 10px;
 }
