@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.three-lines{
+  width: 50%;
+}
+.icon{
+  width: 30px;
+  height: 6px;
+  background: rgb(70, 68, 68);
+  margin: 6px 0;
+}
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background:rgba(255, 255, 255, 1);
+}
+.header1{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+  padding-left: 35px;
+  margin-top: 10px;
+}
+.three-lines{
+  padding-left: 35px;
+  width: 20px;
+  height: 68px;
+  margin-right: 30px;
+}
+.three-lines p{
+  font-size: 13px;
+  color: #363a45;
+  padding: 0;
+  margin: 0;
+}
+.grab-logo img{
+  width: 90px;
+  height: 40px;
+}
+.header2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+.green-container{
+  max-width: 100%;
+  height: 100%;
+  background: rgb(0, 177, 79);
+  padding-top: 6%;
+  padding-left: 200px;
+  padding-right: 150px;
+}
+.covid a{
+  text-decoration: underline rgb(245, 247, 248);
+  color: white;
+  font-size: 20px;
+}
+.despite{
+  padding-top: 150px;
+  font-size: 36px;
+  color: white;
+}
+.food-delivery{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 150px;
+}
+.food-delivery-logo h3{
+  font-size: 40px;
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.food-delivery-tag p{
+  color: white;
+  line-height: 25px;
+}
+.order-web{
+  padding-top: 20px;
+}
+.order-web img{
+  width: 31px;
+  height: 15px;
+}
+.order-web a{
+  text-decoration: underline lightcyan;
+  color: white;
+}
+.ride-with-us img{
+  width: 45px;
+  height: 56px;
+}
+.ride-with-us a{
+  color: white;
+}
+
+.restu-owner{
+  padding-top: 25px;
+}
+.restu-owner img{
+  width: 45px;
+  height: 56px;
+}
+.restu-owner a{
+  color: white;
+}
+.main-section{
+  display: flex;
+  justify-content: flex-start ;
+  padding-top: 80px;
+}
+.main-pic{
+  width: 50%;
+}
+.groceries-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-groceries{
+  width: 40%;
+}
+.groceries-logo h3{
+  font-size: 30px;
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.groceries-text{
+  color: white;
+  line-height: 25px;
+  padding-left: 30px;
+}
+.groceries-app{
+  padding-top: 10px;
+}
+.groceries-app img{
+  height: 20px;
+  width: 30px;
+}
+.groceries-app a{
+  color: white;
+}
+.main-pic2 img{
+  padding-top: 30px;
+  width: 477px;
+  height: 54  0px;
+}
+.delivery-part{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 150px;
+}
+.delivery-logo h3{
+  font-size: 30px;
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.delivery-text{
+  width: 360px;
+  padding-left: 50px;
+}
