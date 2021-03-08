@@ -115,12 +115,15 @@ nav{
   max-width: 100%;
   padding-left: 15px;
   border: 4px solid rgb(234, 237, 240);
+  margin-right: 0;
+  padding-right: 0;
 }
 
-hr{
-  border: 1px solid rgb(234, 237, 240) ;
+.line{
+  border-bottom: 1px solid rgb(234, 237, 240) ;
   padding: 0;
 }
+
 .categories p{
   padding-left: 20px;
 }
@@ -170,6 +173,7 @@ hr{
 .f-assurance{
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 .f-assurance img{
   width: 105px;
@@ -442,6 +446,7 @@ main{
   display: none;
 }
 @media screen and (max-width: 560px){
+
   .header1{
     display: none; 
   } 
@@ -586,5 +591,9 @@ main{
     align-items: center;
     padding-right: 10px;
     background-color:#172337 ;
+  }
+  .line-mob{
+    border-bottom: 1px solid rgb(234, 237, 240) ;
+    padding: 0;
   }
 }
