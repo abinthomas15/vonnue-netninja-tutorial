@@ -248,6 +248,7 @@ section{
   padding-top: 20px;
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .ios{
   padding-right: 40px;
@@ -749,4 +750,98 @@ section{
     font-size: 15px;
     padding-top: 10px;
   }
-} 
+}
+@media screen and (max-width:1024px){
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .despite{
+    text-align: center;
+  }
+  .covid{
+    padding-top: 135px;
+    
+  }
+  .food-delivery{
+    flex-direction: column;
+    width: 50%;
+  }
+  .food-delivery-logo h3{
+    width: 100%;
+  }
+  .food-delivery-tag{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .order-web{
+    padding-bottom: 20px;
+  }
+  .ride-with-us{
+    display: flex;
+    flex-direction: row;
+  }
+  .ride-with-us a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  .restu-owner{
+    display: flex;
+    flex-direction: row;
+  }
+  .restu-owner a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  .main-section{
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-pic{
+    width: 100%;
+  }
+  .delivery-part{
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .delivery-text{
+    padding-left: 0;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .arrow img{
+    padding-right:20px;
+  }
+  .main-groceries{
+    width: 100%;
+  }
+  .groceries-logo{
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .groceries-text{
+    padding-top: 20px;
+  }
+  .section-2{
+    padding-top: 20px;
+  }
+  .about{
+    padding-left: 20px;
+  }
+  .heading-2{
+    text-align: center;
+  }
+}
