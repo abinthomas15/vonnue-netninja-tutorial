@@ -688,15 +688,21 @@ footer{
 }
 .footer{
   background-color: #f0f0f0;
-  padding-top: 5%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
+  padding-left: 3%;
 }
 .footer-logo img{
   width: 300px;
   height: 50px;
+}
+.contact-outer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 .contact{
   padding: 10px;
@@ -706,6 +712,7 @@ footer{
 }
 .contact:hover{
   background: #6c2888;
+  color: white;
 }
 .contact p{
   font-size: 25px;
@@ -726,15 +733,53 @@ footer{
 }
 .possible{
   padding-right: 5%;
+  padding-top: 2%;
 }
-.possible p{
- 
+.possible h6{
+  padding-top: 15%;
 }
 .global p{
   width: 80%;
 }
-
-
+.media{
+  padding-top: 10%;
+}
+.upper{
+  width: 100%;
+  text-align: center;
+}
+.industri-upper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+}
+.ind{
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+}
+.ind-line-outer{
+  width: 50%;
+}
+.ind-lines{
+  border-bottom: 1px solid #8A0051;
+  width:250px;
+  padding-top: 30px;
+}
+.banking-outer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 1%;
+}
+.banking-outer p{
+  padding-right: 2%;
+  font-size: 15px;
+  line-height: 15px;
+  color: #363636;
+  padding-top: 15px;
+}
 
 
 
@@ -746,7 +791,6 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 50%;
   }
   .search-respon img{
     width: 30px;
@@ -836,5 +880,132 @@ footer{
   }
   .read-data {
     width: 100%;
-}
+  }
+  .container-wrapper{
+    flex-direction: column;
+    width: 100%;
+  }
+  .wrapper{
+    background-image: url(img/be-a-mindtree-mind-careers-opportunities\ 480.png);
+    height: 510px;
+  }
+  .be h3{
+    font-size: 31px;
+  }
+  .ready{
+    width: 70%;
+  }
+  .explore{
+    width: 27%;
+  }
+  .wrapper2{
+    background-image: url(img/mindtree-consulting-service-line-banner_mobile\ 480\ 1.png);
+    flex-direction: column;
+    text-align: center;
+  }
+  .consulting{
+    width: 100%;
+  }
+  .mindtree-consult h3 {
+    font-size: 26px;
+  }
+  .blueprint {
+    width: 100%;
+  }
+  .blueprint p {
+    font-size: 15px;
+  }
+  .learn{
+    width: 100%;
+  }
+  .services-outer{
+    width: 100%;
+  }
+  .customer{
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    width: 100%;
+  }
+  .blured-pic{
+    height: auto;
+  }
+  .blured-pic-inner{
+    flex-direction: column;
+  }
+  .changing-image img{
+    height: auto;
+  }
+  .changing-text{
+    width: 100%;
+  }
+  .client-outer{
+    flex-direction: column;
+    padding: 0;
+  }
+  .video-outer{
+    flex-direction: column;
+  }
+  .arrow1{
+    display: none;
+  }
+  .arrow2{
+    display: none;
+  }
+  .video {
+    width: 300px;
+  }
+  .video-text-outer{
+    width: 100%;
+  }
+  .rounds{
+    display: none;
+  }
+  .section{
+    padding: 0;
+  }
+  .by{
+    width: 100%;
+  }
+  .grid-wrapper{
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+  .input-fields input{
+    width: auto;
+  }
+  .hear-about select{
+    width: 326px;
+    font-size: 20px;
+  }
+  .upload{
+    width: 310px;
+  }
+  .white-background{
+    height: 931px;
+  }
+  .industri-upper{
+    display: none;
+  }
+  .banking-outer{
+    display: none;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .possible h6 {
+    padding-top: 5%;
+  }
+  .contact-outer{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .footer2{
+    display: none;
+  }
+  .changing-container{
+    flex-direction: column;
+  }
+  .header2{
+    width: 47%;
+  }
 }
