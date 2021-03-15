@@ -826,7 +826,53 @@ footer{
   .read-data{
     width: 72%;
   }
-  .gallery-image img{
+  .gallery-image img {
+    width: 246px;
+  }
+  .arrow-pov img{
+    display: none;
+  }
+  .wrapper{
+    flex-wrap: nowrap;
+  }
+  .changing-container{
+    flex-direction: column;
+  }
+  .changing-text{
+    width: 100%;
+  }
+  .arrow1{
+    display: none;
+  }
+  .arrow2{
+    display: none;
+  }
+  .video-outer{
+    flex-direction: column;
+  }
+  .video-text-outer{
+    width: 100%;
+  }
+  .by{
+    width: 100%;
+  }
+  .grid-wrapper{
+    grid-template-columns: none;
+  }
+  .white-background{
+    height: 852px;
+  }
+  .industri-upper{
+    display: none;
+  }
+  .banking-outer{
+    display: none;
+  }
+  .footer{
+    
+  }
+  .possible h6 {
+    padding-top: 3%;
   }
 }
 
@@ -934,6 +980,7 @@ footer{
   }
   .changing-image img{
     height: auto;
+    width: 360px;
   }
   .changing-text{
     width: 100%;
