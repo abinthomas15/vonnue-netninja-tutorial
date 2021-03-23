@@ -1,0 +1,847 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.three-lines{
+  width: 50%;
+}
+.icon{
+  width: 30px;
+  height: 6px;
+  background: rgb(70, 68, 68);
+  margin: 6px 0;
+}
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  background:rgba(255, 255, 255, 1);
+}
+.header1{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 15%;
+  align-items: center;
+  padding-left: 35px;
+  margin-top: 10px;
+}
+.three-lines{
+  padding-left: 35px;
+  width: 20px;
+  height: 68px;
+  margin-right: 30px;
+}
+.three-lines p{
+  font-size: 13px;
+  color: #363a45;
+  padding: 0;
+  margin: 0;
+}
+.grab-logo img{
+  width: 90px;
+  height: 40px;
+}
+.header2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 20%;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+section{
+  max-width: 100%;
+  height: 100%;
+  background: rgb(0, 177, 79);
+  padding-top: 6%;
+  padding-left: 200px;
+  padding-right: 150px;
+}
+.covid a{
+  text-decoration: underline rgb(245, 247, 248);
+  color: white;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+.despite{
+  padding-top: 150px;
+  font-size: 50px;
+  color: white;
+  width: 73%;
+}
+.food-delivery{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  padding-top: 150px;
+}
+.food-delivery-logo h3{
+  font-size: 40px;
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  width: 3%;
+}
+.food-delivery-tag{
+  padding-right: 0;
+  margin-right: 0;
+  width: 24%;
+  padding-right: 200px;
+}
+.food-delivery-tag p{
+  color: white;
+  line-height: 25px;
+}
+.order-web{
+  padding-top: 20px;
+}
+.order-web img{
+  width: 31px;
+  height: 15px;
+}
+.order-web a{
+  text-decoration: underline lightcyan;
+  color: white;
+}
+.ride-with-us{
+  padding-right: 20px;
+}
+.ride-with-us img{
+  width: 45px;
+  height: 56px;
+}
+.ride-with-us a{
+  color: white;
+}
+
+.restu-owner{
+  padding-top: 25px;
+}
+.restu-owner img{
+  width: 45px;
+  height: 56px;
+}
+.restu-owner a{
+  color: white;
+}
+.main-section{
+  display: flex;
+  justify-content: flex-start ;
+  padding-top: 80px;
+}
+.main-pic{
+  width: 50%;
+}
+.groceries-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-groceries{
+  width: 40%;
+}
+.groceries-logo h3{
+  font-size: 30px;
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.groceries-text{
+  color: white;
+  line-height: 25px;
+  padding-left: 30px;
+}
+.groceries-app{
+  padding-top: 10px;
+}
+.groceries-app img{
+  height: 20px;
+  width: 30px;
+}
+.groceries-app a{
+  color: white;
+}
+.main-pic2 img{
+  padding-top: 30px;
+  width: 477px;
+  height: 54  0px;
+}
+.delivery-part{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 150px;
+}
+.delivery-logo h3{
+  font-size: 30px;
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.delivery-text{
+  width: 360px;
+  padding-left: 50px;
+}
+.delivery-text p{
+  color: white;
+  line-height: 25px;
+}
+.delivery-text img{
+  height: 20px;
+  width: 30px; 
+}
+.delivery-text a{
+  color: white;
+}
+.arrow{
+  padding-top: 10px;
+}
+.image-three{
+  padding-top: 30px;
+}
+.image-three img{
+  width: 520px;
+  height: 510px;
+}
+.section-2{
+  background-color:rgb(249, 249, 249);
+  padding-bottom: 50px;
+}
+.heading-2{
+  width: 86%;
+  font-size: 35px;
+  color: black;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px,auto);
+  grid-gap: 20px;
+  max-width: 960px;
+  padding-top: 50px;
+  grid-auto-flow: dense;
+}
+.grid > *{
+  background: white;
+}
+.grid img{
+  max-width: 100%;
+}
+.icons p{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.icons h4{
+  text-align: center;
+  font-size: 20px;
+}
+.get-app{
+  padding-top: 50px;
+  font-size: 25px;
+  color:rgb(56, 62, 67);
+}
+.download-app{
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.ios{
+  padding-right: 40px;
+}
+.section3{
+  padding-top: 50px;
+  background: rgb(0, 177, 79);
+  padding-bottom: 50px;
+}
+.newsroom h2{
+  font-size: 50px;
+  color: #d6ef52;
+}
+.stay{
+  padding-top: 30px;
+}
+.stay a{
+  font-size: 20px;
+  color: white;
+} 
+.stay i{
+  color: white;
+}
+.footer1{
+  background-color: #eaeff2;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 150px;
+  padding-bottom: 30px;
+
+}
+.grab img{
+  width: 70 px;
+  height: 30px;
+}
+.grab-foot{
+  width: 19%;
+}
+.forward{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.address{
+  padding-top: 20px;
+  font-size: 17px;
+  width: 77%;
+}
+.follow{
+  padding-top: 20px;
+  font-size: 14px;
+}
+.country{
+  display: flex;
+  border: 2px solid rgb(226, 217, 217);
+  width: 75%;
+}
+.singapore{
+  display: flex;
+}
+.singapore h4{
+  padding-right: 30px;
+  padding-left: 10px;
+}
+.about p{
+  padding-top: 5px;
+  font-size: 15px;
+}
+.footer2{
+  background-color: #363a45;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.terms{
+  display: flex;
+}
+.terms p{
+  padding-right: 10px;
+  color: white;
+}
+.grab-2021{
+  color: rgb(194, 191, 191);
+}
+.img img{
+  padding-top: 10px;
+  width: 150px;
+  height: 50px;
+  padding-bottom: 10px;
+}
+.mobile-main{
+  display: none;
+}
+.mobo-green{
+  display: none;
+}
+.section2-mobo{
+  display: none;
+}
+.heading2-mobo{
+  display: none;
+}
+.grid-mobo{
+  display: none;
+}
+.get-app-mobo{
+  display: none;
+}
+.download-app-mobo{
+  display: none;
+}
+.gplay-mobo{
+  display: none;
+}
+.ios-mobo{
+  display: none;
+}
+.newsroom-mobo{
+  display: none;
+}
+.stay-mobo{
+  display: none;
+}
+.footer-mobo{
+  display: none ;
+}
+.grab-mobo{
+  display: none;
+}
+.forward-mobo{
+  display: none;
+}
+.address-mobo{
+  display: none;
+}
+.follow-mobo{
+  display: none;
+}
+.country-mobo{
+  display: none;
+}
+.singapore-mobo{
+  display: none;
+}
+.flag-mobo{
+  display: none;
+}
+.footer2-mobo{
+  display: none;
+}
+.terms-mobo{
+  display: none;
+}
+.grab-2021-mobo{
+  display: none;
+}
+@media screen and (max-width: 560px){
+  .main-header{
+    display: none;
+  }
+  section{
+    display: none;
+  }
+  .footer1{
+    display: none;
+  }
+  .footer2{
+    display: none;
+  }
+  .mobile-main{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background:rgba(255, 255, 255, 1);
+    align-items: center;
+  }
+  .mobile-main .fa {
+    width: 25px;
+    height: 25px;
+  }
+  .mobo-green{
+    display: block;
+    width: 100%;
+    background: rgb(0, 177, 79);
+  }
+  .corona{
+    display: flex;
+    width: 94%;
+  }
+  .corona p{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 15px;
+    color:white
+  }
+  .line{
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+  }
+  .despite-mobo{
+    padding-top: 50px;
+    width: 80%;
+    padding-left: 30px;
+  }
+  .despite-mobo h1{
+    color: white;
+    font-size: 37px;
+  }
+  .food-logo-mobo{
+    padding-top: 35px;
+    padding-left: 30px;
+  }
+  .food-logo-mobo h3{
+    font-size: 30px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  .food-tag-mobo{
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .food-tag-mobo p{
+    color: white;
+    line-height: 25px;
+  }
+  .order-web-mobo{
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  .order-web-mobo img{
+    width: 35px;
+    height: 15px;
+    color: white;
+  }
+  .order-web-mobo a{
+    color: white;
+  }
+  .main-pic-mobo{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-pic-mobo img{
+    width: 100%;
+  }
+  .ride-with-us-mobo{
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  .ride-with-us-mobo img{
+    width: 62px;
+    height: 60px;
+  }
+  .restu-owner-mobo{
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .restu-owner-mobo img{
+    width: 62px;
+    height: 60px;
+  }
+  .restu-owner-mobo a{
+    color: white;
+  }
+  .ride-with-us-mobo a{
+    color: white;
+  }
+  .groceries-logo-mobo{
+    padding-top: 35px;
+    padding-left: 30px;
+  }
+  .groceries-logo-mobo h3{
+    font-size: 30px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  .groceries-text-mobo{
+    width: 90%;
+  }
+  .groceries-text-mobo p{
+    color: white;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .groceries-app-mobo{
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .groceries-app-mobo img{
+    width: 35px;
+    height: 15px;
+  }
+  .groceries-app-mobo a{
+    color: white;
+  }
+  .main-pic2-mobo{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-pic2-mobo img{
+    width: 100%;
+  }
+  .delivery-logo-mobo{
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .delivery-logo-mobo h3{
+    font-size: 30px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  .delivery-text-mobo{
+    width: 97%;
+  }
+  .delivery-text-mobo p{
+    color: white;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .arrow-mobo{
+    padding-top: 20px;
+    padding-left: 30px; 
+  }
+  .arrow-mobo img{
+    width: 35px;
+    height: 15px;
+  }
+  .arrow-mobo a{
+    color: white;
+  }
+  .image-three-mobo{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .image-three-mobo img{
+    width: 100%;
+    height: 35%;
+  }
+  .mobile-section2{
+    background-color: rgb(245, 245, 245);
+    display: block;
+    padding: 0;
+  }
+  .heading2-mobo{
+    padding-top: 50px;
+    width: 80%;
+    padding-left: 30px;
+  }
+  .heading2-mobo h1{
+    color: black;
+    font-size: 37px;
+  }
+  .grid-mobo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 20px;
+    max-width: 960px;
+    padding-top: 50px;
+  }
+  .grid-mobo > *{
+    background: white;
+  }
+  .grid-mobo img{
+    max-width: 100%;
+  }
+  .icons-mobo p{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .icons-mobo h4{
+    text-align: center;
+    font-size: 20px;
+  }
+  .get-app-mobo{
+    display: block;
+    padding-top: 50px;
+    font-size: 25px;
+    color:rgb(56, 62, 67);
+    padding-left: 10px;
+  } 
+  .download-app-mobo{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  } 
+  .ios-mob img{
+    display: block;
+    width: 90%;
+    padding-left: 10px;
+  }
+  .gplay-mobo{
+    display: block;
+  }
+  .gplay-mobo img{
+    width: 90%;
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+  .newsroom-mobo{
+    display: block;
+    background-color: #00b14f;
+    margin-top: 80px;
+    padding-bottom: 40px;
+  }
+  .newsroom-mobo h2{
+    display: block;
+    font-size: 30px;
+    color: #d6ef52;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  .stay-mobo{
+    display: block;
+    padding-top: 30px;
+    width: 56%;
+    padding-left: 20px;
+  }
+  .stay-mobo a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .stay-mobo i{
+    padding-left: 30px;
+    color: white;
+  }
+  .footer-mobo{
+  background-color: #eaeff2;
+  display: block;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 150px;
+  padding-bottom: 30px;
+  }
+  .grab-mobo{
+    display: block;
+    
+  }
+  .grab-mobo img{
+    width: 70 px;
+    height: 30px;
+  }
+  .forward-mobo{
+    display: block;
+    padding-top: 10px;
+    color: #363a45;
+  }
+  .address-mobo{
+    display: block;
+    padding-top: 20px;
+    font-size: 17px;
+    width: 77%;
+    color: #363a45;
+  }
+  .follow-mobo{
+    display: block;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #363a45;
+  }
+  .country-mobo{
+    display: flex;
+    border: 2px solid rgb(226, 217, 217);
+    width: 75%;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .flag-mobo{
+    display: block;
+    padding-top: 5px;
+  }
+  .singapore-mobo{
+    display: flex;
+    padding-left: 10px;
+  }
+  .footer2-mobo{
+    display: block;
+    background-color: #363a45;
+  }
+  .terms-mobo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+  .grab-2021-mobo{
+    display:block;
+    text-align: center;
+    color: rgb(194, 191, 191);
+    font-size: 15px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width:1024px){
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .despite{
+    text-align: center;
+  }
+  .covid{
+    padding-top: 135px;
+    
+  }
+  .food-delivery{
+    flex-direction: column;
+    width: 50%;
+  }
+  .food-delivery-logo h3{
+    width: 100%;
+  }
+  .food-delivery-tag{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .order-web{
+    padding-bottom: 20px;
+  }
+  .ride-with-us{
+    display: flex;
+    flex-direction: row;
+  }
+  .ride-with-us a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  .restu-owner{
+    display: flex;
+    flex-direction: row;
+  }
+  .restu-owner a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  .main-section{
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-pic{
+    width: 100%;
+  }
+  .delivery-part{
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .delivery-text{
+    padding-left: 0;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .arrow img{
+    padding-right:20px;
+  }
+  .main-groceries{
+    width: 100%;
+  }
+  .groceries-logo{
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .groceries-text{
+    padding-top: 20px;
+  }
+  .section-2{
+    padding-top: 20px;
+  }
+  .about{
+    padding-left: 20px;
+  }
+  .heading-2{
+    text-align: center;
+  }
+}
