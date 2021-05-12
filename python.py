@@ -87,7 +87,7 @@ def primNumber(a) :
   else:
     print("Its a Prime Number")
 
-primNumber(a)
+primNumber(a)   
 
 # check for a range of prime numbers
 for i in range(1,100):
@@ -124,7 +124,29 @@ if(i == result):
 else:
   print("Enterd number is not Amstrong")
 
+# fibonacci series
+n = int(input("Enter the count for the series"))
+first = 0
+second = 1
+for i in range(n):
+  print(first)
+  temp = first
+  first = second
+  second = temp + first
 
+def fibonacci (num) :
+  first  = 0 
+  second = 1
+  for i in range (num):
+    print(first)
+    temp = first 
+    first = second
+    second = temp + first
 
+fibonacci(5)
 
+def reverseNum (num):
+  reverse = ''
+  for i in range(len(num)-1,-1,-1):
+    reverse = reverse
 
